@@ -61,23 +61,23 @@ export default function Home() {
             </div>
 
             <div className="card">
-              <h4>DevOps Consulting</h4>
+              <h3>DevOps Consulting</h3>
               <p>Process & toolchain transformation to adopt DevOps and automation.</p>
               <Link href="/services/devops" className="link">Learn more →</Link>
             </div>
 
             <div className="card">
-              <h4>CI/CD Pipelines</h4>
+              <h3>CI/CD Pipelines</h3>
               <p>Automated pipelines with GitLab CI, GitHub Actions, Jenkins — safe releases every time.</p>
             </div>
 
             <div className="card">
-              <h4>Infrastructure as Code (IaC)</h4>
+              <h3>Infrastructure as Code (IaC)</h3>
               <p>Terraform, Ansible, CloudFormation — repeatable infrastructure provisioning.</p>
             </div>
 
             <div className="card">
-              <h4>Monitoring & Observability</h4>
+              <h3>Monitoring & Observability</h3>
               <p>Prometheus, Grafana, Datadog — centralized metrics, logs and alerts.</p>
             </div>
           </div>
