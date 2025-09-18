@@ -1,0 +1,35 @@
+/* styles/globals.css - simple, clean stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap');
+
+:root {
+  --primary: #0A66C2;
+  --accent: #08A0A8;
+  --dark: #0F1724;
+  --muted: #6B7280;
+  --bg: #F7FAFC;
+}
+
+html,body,#__next { height:100%; margin:0; font-family:Inter,system-ui,-apple-system; background:var(--bg); color:var(--dark) }
+.container { max-width:1100px; margin:0 auto; padding:28px; }
+.header-inner { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+.brand { display:flex; align-items:center; gap:12px; }
+.logo { height:64px; width:auto; }
+.brand-name { font-weight:700; color:var(--primary); font-size:20px }
+.brand-tag { color:var(--muted); font-size:12px }
+.nav a { margin-left:18px; color:var(--dark); font-weight:600 }
+.site-header { background:#fff; box-shadow: 0 2px 10px rgba(0,0,0,0.04); position:sticky; top:0; z-index:50 }
+.hero { background:linear-gradient(90deg,var(--primary),#2563eb); color:#fff; padding:64px 28px; border-radius:10px; margin:28px 0; text-align:center }
+.lead { opacity:0.95; font-size:18px; max-width:900px; margin:10px auto; }
+.cta { margin-top:18px; display:flex; gap:12px; justify-content:center }
+.btn { background:#fff; color:var(--primary); padding:12px 18px; border-radius:10px; font-weight:700; text-decoration:none }
+.btn-outline { border:2px solid rgba(255,255,255,0.15); color:#fff; padding:10px 16px; border-radius:10px; text-decoration:none }
+.services-overview h2, .about-teaser h2 { text-align:center }
+.grid { display:grid; gap:18px; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); margin-top:18px }
+.card { background:#fff; padding:18px; border-radius:10px; box-shadow:0 8px 28px rgba(12,19,31,0.05) }
+.card.featured { border-left:4px solid var(--primary) }
+.link { display:inline-block; margin-top:10px; color:var(--primary) }
+.case .card { padding:20px }
+.site-footer { padding:20px 0; text-align:center; margin-top:30px; color:var(--muted) }
+.muted { color:var(--muted) }
+.breadcrumbs { font-size:14px; color:var(--muted); margin-bottom:12px }
+.cta-row { margin-top:18px; display:flex; gap:12px; align-items:center }
