@@ -1,6 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120" fill="none">
-  <rect x="0" y="0" width="96" height="96" rx="14" fill="#0A66C2"/>
-  <path d="M30 24 L66 48 L30 72 Z" fill="white" />
-  <text x="116" y="58" font-family="Arial, sans-serif" font-size="28" fill="#0F1724" font-weight="600">Satanaya</text>
-  <text x="116" y="78" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">NextGen Cloud & Container Solutions</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120" viewBox="0 0 220 120">
+  <!-- Bigger cloud -->
+  <path d="M40 60 
+           a40 40 0 0 1 40-40 
+           a40 40 0 0 1 40 40 
+           h80 
+           a30 30 0 0 1 0 60 
+           h-160 
+           a30 30 0 0 1 0-60 Z" 
+        fill="#0A66C2"/>
+
+  <!-- Larger Kube inside cloud -->
+  <rect x="80" y="60" width="60" height="60" rx="8" fill="#00BFA6"/>
+
+  <!-- Larger text inside the Kube -->
+  <text x="110" y="95" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold" text-anchor="middle" alignment-baseline="middle">
+    Satanaya
+  </text>
 </svg>

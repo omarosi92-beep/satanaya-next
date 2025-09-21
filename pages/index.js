@@ -13,7 +13,7 @@ export default function Home() {
       <header className="site-header">
         <div className="container header-inner">
           <div className="brand">
-            <img src="/logo.svg" alt="Satanaya" className="logo" />
+            <img src="/satanaya-nobg-3.png" alt="Satanaya Logo" width={200} height={100} />
             <div className="brand-text">
               <div className="brand-name">Satanaya</div>
               <div className="brand-tag">NextGen Cloud & Container Solutions</div>
